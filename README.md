@@ -54,10 +54,13 @@ python test.py
 
 # 🏆 Experiments Results
 ## Quantitative Results
+<p align="center">
+  <img src="images/Table.png">
+</p>
 
 ## Qualitative Results
 <p align="center">
-  <img src="images/visual.png">
+  <img src="images/visual.png" width="500">
 </p>
 
 # 📄 Citation
