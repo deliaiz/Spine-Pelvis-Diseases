@@ -7,12 +7,9 @@ Characterization of Spine and Pelvis Diseases", published in Medical Image Analy
 <p align="center">
   <img src="images/Framework.png">
 </p>
-This study was conducted through four sequential stages: (a) Data Collection: clinicians recorded videos of patients walking in 
-indoor hospital environments using smartphones. (b) Data Analysis and Annotation: orthopedic surgeons annotated each video with the corresponding disease 
-type based on clinical diagnostic reports. (c) Video Preprocessing: 16 frames were uniformly sampled from each video segment. Subsequently, the sampled frames 
-are uniformly resized to 256 × 455 and cropped to an input size of 224 × 224. Finally, the images undergo color perturbation and normalization before being fed 
-into the model. (d) Hierarchical Assessment Model: the model provides hierarchical decision-support outputs, including preliminary disease-region localization 
-and auxiliary pathological characterization.
+<p align="justify">
+This study was conducted through four sequential stages: (a) Data Collection: clinicians recorded videos of patients walking in indoor hospital environments using smartphones. (b) Data Analysis and Annotation: orthopedic surgeons annotated each video with the corresponding disease type based on clinical diagnostic reports. (c) Video Preprocessing: 16 frames were uniformly sampled from each video segment. Subsequently, the sampled frames are uniformly resized to 256 × 455 and cropped to an input size of 224 × 224. Finally, the images undergo color perturbation and normalization before being fed into the model. (d) Hierarchical Assessment Model: the model provides hierarchical decision-support outputs, including preliminary disease-region localization and auxiliary pathological characterization.
+</p>
 
 # 🛠️ Method
 
