@@ -1,21 +1,18 @@
 # Gait-Based Diagnostic Network for Localization and Pathological Characterization of Spine and Pelvis Diseases 🧠✨
 This is the official code for the paper "Gait-Based Diagnostic Network for Localization and Pathological
 Characterization of Spine and Pelvis Diseases", published in Medical Image Analysis, Accepted 10 August 2026.
-# 💡 Overview
-<p align="center">
-  <img src="images/framework.png" width="900">
-</p>
-This work proposes a gait-based diagnostic framework for the localization and pathological characterization of spine and pelvis diseases using video-based gait analysis.
 
----
+# 💡 Overview
+
+<p align="center">
+  <img src="images/Framework.png" width="900">
+</p>
 
 # 🛠️ Method
+
 <p align="center">
-  <img src="images/framework.png" width="900">
+  <img src="images/Model.png" width="900">
 </p>
-
-The proposed framework extracts gait-related representations from input videos and performs disease localization and pathological characterization.
-
 ---
 
 # 💻 Software Requirements
