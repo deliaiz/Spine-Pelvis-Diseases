@@ -41,7 +41,6 @@ CUDA/cudnn:10.1
 ## Prepare dataset
 1. Prepare an txt file containing video names(*.mp4) and the Label to complete video sequences as the data input for training.
 For example:
-```text
 video_001.mp4 0
 video_002.mp4 1
 video_003.mp4 2
@@ -49,8 +48,10 @@ video_003.mp4 2
 ## Training and Evaluation example
 Training and evaluation are on a single GPU. A GPU with approximately 10 GB of memory is sufficient for training and inference.
 ## Train
+```text
 python train.py
 ## Evaluation
+```text
 python test.py
 
 # 🏆 Experiments Results
