@@ -1,6 +1,6 @@
 # Spine-Pelvis-Diseases
-A gait analysis diagnostic Framework for spine and pelvis diseases in localization and pathological characterization.
-The source code is currently being organized, and the complete code will be released once the paper is accepted.
+This is the official code for the paper "Gait-Based Diagnostic Network for Localization and Pathological
+Characterization of Spine and Pelvis Diseases", published in Medical Image Analysis, Accepted 10 August 2026.
 # Software Requirements
 ## Hardware requirements
 The package development version is tested on Linux operating systems.
