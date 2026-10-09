@@ -30,7 +30,7 @@ class VTN(nn.Module):
             pretrained=False,
             **vars(spatial_args)
         )
-        state = torch.load('/public/home/liufj/perl5/Transformer/vit_base_patch16_224_in21k_miil-887286df.pth')
+        state = torch.load('*/vit_base_patch16_224_in21k_miil-887286df.pth')
         self.spatial_transformer.load_state_dict(state, strict=False)
         # Freeze spatial backbone
         self.spatial_frozen = spatial_frozen
@@ -124,7 +124,7 @@ class VTN(nn.Module):
           if x.dim() == 3:
             if x.shape[1] == self.num_tokens:
                 x = x.mean(dim=1)
-              # x = x[:, 0] #(128,768) 原来的
+              # x = x[:, 0] #(128,768)
             elif x.shape[0] == self.num_tokens:
               x = x[0]
             else:
