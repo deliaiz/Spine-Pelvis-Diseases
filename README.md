@@ -2,10 +2,9 @@
 This is the official code for the paper "Gait-Based Diagnostic Network for Localization and Pathological
 Characterization of Spine and Pelvis Diseases", published in Medical Image Analysis, Accepted 10 August 2026.
 # 💡 Overview
-![Overview](images/framework.png)
+![Framework](images/framework.png)
 # 🛠️ Method
-
-
+![Framework](images/model.png)
 # Software Requirements
 ## Hardware requirements
 The package development version is tested on Linux operating systems.
