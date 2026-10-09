@@ -61,7 +61,7 @@ python test.py
 </p>
 
 # 📄 Citation
-If you find this work helpful, please consider citing:
+If you find this work helpful, please consider citing:<br>
 @article{liu2026gait,
   title={Gait-based diagnostic network for localization and pathological characterization of spine and pelvis diseases},
   author={Liu, Fangjin and Li, Song and Zheng, Yingbin and Yang, Xuetong and Yan, Yuxiang and Hao, Qizheng and Dong, Daoguo and Liu, Tielong and Xiao, Jianru and Pu, Jian},
