@@ -48,10 +48,8 @@ video_003.mp4 2
 ## Training and Evaluation example
 Training and evaluation are on a single GPU. A GPU with approximately 10 GB of memory is sufficient for training and inference.
 ## Train
-```text
 python train.py
 ## Evaluation
-```text
 python test.py
 
 # 🏆 Experiments Results
