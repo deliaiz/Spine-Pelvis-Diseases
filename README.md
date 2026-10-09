@@ -61,4 +61,12 @@ python test.py
   <img src="images/visual.png" width="900">
 </p>
 # 📄 Citation
-If you find this work helpful, please consider citing: 
+If you find this work helpful, please consider citing:
+@article{liu2026gait,
+  title={Gait-based diagnostic network for localization and pathological characterization of spine and pelvis diseases},
+  author={Liu, Fangjin and Li, Song and Zheng, Yingbin and Yang, Xuetong and Yan, Yuxiang and Hao, Qizheng and Dong, Daoguo and Liu, Tielong and Xiao, Jianru and Pu, Jian},
+  journal={Medical Image Analysis},
+  pages={104260},
+  year={2026},
+  publisher={Elsevier}
+}
