@@ -48,7 +48,6 @@ trees = [
 
 
 def get_hierarchy_tensors(device):
-    """获取层次结构张量，避免重复创建"""
     mid_to_coarse_tensor = torch.tensor(mid_to_coarse_list, device=device, dtype=torch.long)
     tree_loss = TreeLoss(trees, total_nodes, levels, device=device)
     return mid_to_coarse_tensor, tree_loss
