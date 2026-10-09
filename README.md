@@ -1,4 +1,4 @@
-# Spine-Pelvis-Diseases
+# Spine-Pelvis-Diseases 📣
 This is the official code for the paper "Gait-Based Diagnostic Network for Localization and Pathological
 Characterization of Spine and Pelvis Diseases", published in Medical Image Analysis, Accepted 10 August 2026.
 # Software Requirements
