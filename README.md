@@ -5,11 +5,20 @@ Characterization of Spine and Pelvis Diseases", published in Medical Image Analy
 <p align="center">
   <img src="images/framework.png" width="900">
 </p>
+This work proposes a gait-based diagnostic framework for the localization and pathological characterization of spine and pelvis diseases using video-based gait analysis.
+
+---
+
 # 🛠️ Method
 <p align="center">
   <img src="images/framework.png" width="900">
 </p>
-# Software Requirements
+
+The proposed framework extracts gait-related representations from input videos and performs disease localization and pathological characterization.
+
+---
+
+# 💻 Software Requirements
 ## Hardware requirements
 The package development version is tested on Linux operating systems.
 Linux: Ubuntu 16.04
@@ -25,9 +34,16 @@ CUDA/cudnn:10.1
 > - os
 >
 ...
+
 # 🚀 Quick Start
-## Prepare dataset
+# Prepare dataset
 1. Prepare an txt file containing video names(*.mp4) and the Label to complete video sequences as the data input for training.
+For example:
+```text
+video_001.mp4 0
+video_002.mp4 1
+video_003.mp4 2
+
 # Training and Evaluation example
 Training and evaluation are on a single GPU. A GPU with approximately 10 GB of memory is sufficient for training and inference.
 ## Train
